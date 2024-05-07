@@ -1,0 +1,74 @@
+.buyer-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.searchbtn {
+  margin-bottom: 20px;
+}
+
+.searchbtn input[type="search"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.searchbtn button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.searchbtn button:hover {
+  background-color: #0056b3;
+}
+
+.buyer-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.buyer-details th,
+.buyer-details td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.buyer-details th {
+  background-color: #f2f2f2;
+}
+
+.buyer-details tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.buyer-details tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+.buyer-details a {
+  text-decoration: none;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.buyer-details button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.buyer-details button:hover {
+  background-color: #c82333;
+}

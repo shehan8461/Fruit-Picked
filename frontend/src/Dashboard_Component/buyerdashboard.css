@@ -1,0 +1,74 @@
+.values {
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.values img {
+  display: block;
+  margin: 0 auto;
+}
+
+.values h2 {
+  text-align: center;
+  color: #007bff; /* Blue */
+}
+
+.values hr {
+  border: 1px solid #dee2e6; /* Gray */
+  margin: 20px 0;
+}
+
+.values a {
+  color: #343a40; /* Dark gray */
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.values a:hover {
+  color: #007bff; /* Blue */
+}
+
+.buyerdashboard {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.buyerdashboard h3 {
+  color: #007bff; /* Blue */
+  margin-bottom: 10px;
+}
+
+.buyerdashboard p.total-display {
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745; /* Green */
+}
+
+.buyerdashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.buyerdashboard th,
+.buyerdashboard td {
+  border: 1px solid #dee2e6; /* Gray */
+  padding: 10px;
+  text-align: left;
+}
+
+.buyerdashboard th {
+  background-color: #007bff; /* Blue */
+  color: #fff; /* White */
+}
+.name-display{
+  position: absolute;
+  top:30%;
+  left: 90%;
+}

@@ -1,0 +1,87 @@
+/* Styling for the signpage container */
+.signpage {
+    text-align: center; /* Center align content */
+    margin-top:10%;
+  }
+  
+  /* Styling for the h3 element */
+
+  .border{
+    border:2px solid green;
+    position: absolute;
+    width:27%;
+    left:12%;
+    top:7%;
+    height:65%;
+    background-image: URL('./HD-wallpaper-fruits-kiwi-fruit-green-splash.jpg');
+
+
+  }
+  .border p{
+    position: absolute;
+    top:75%;
+    left:30%
+  }
+  
+  /* Styling for the background image */
+  .signpage h3::after {
+    content: ""; /* Empty content */
+
+    background-size: cover; /* Cover the entire area */
+    position: absolute; /* Absolute positioning */
+    top: 100%; /* Position it just below the border */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.2; /* Adjust the opacity as needed */
+    z-index: -1; /* Move it behind the content */
+  }
+  
+  /* Styling for the form */
+  .signpage form {
+    display: inline-block; /* Display as inline-block to center */
+    text-align: left; /* Align form elements to the left */
+    margin-top: 30px; /* Add some space between h3 and form */
+  }
+  .signpage h2{
+    position: absolute;
+    left: 40%;
+    top:10%
+  }
+  
+  /* Styling for the input fields */
+  .signpage input[type="text"],
+  .signpage input[type="password"] {
+    width: 100%; /* Set width to 100% */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add some space between input fields */
+    border: 1px solid #ccc; /* Add border */
+  }
+  
+  /* Styling for the checkbox label */
+  .signpage label {
+    display: block; /* Display as block */
+  }
+  
+  /* Styling for the buttons */
+  .signpage button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add pointer cursor on hover */
+    margin-top: 10px; /* Add some space between elements */
+  }
+  
+  /* Styling for the login button */
+  .signpage button.login {
+    background-color: transparent; /* Transparent background */
+    color: white; /* White text color */
+    border: 2px solid white; /* White border */
+  }
+  
+  /* Styling for the sign up button */
+  .signup {
+    background-color: #4caf50; /* Green color */
+    color: white; /* White text color */
+  
+  }
+  

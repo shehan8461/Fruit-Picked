@@ -1,0 +1,46 @@
+.buyer-update {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+ top:20%;
+ left:40%;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  h3 {
+    margin: 5px 0;
+  }
+  
+  .buyer-update label {
+        position: absolute;
+        left: 40%;
+  }
+  .signpage form {
+    display: inline-block; /* Display as inline-block to center */
+    text-align: left; /* Align form elements to the left */
+    margin-top: 30px; /* Add some space between h3 and form */
+  }
+  input[type="text"],
+  input[type="password"] {
+    padding: 8px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

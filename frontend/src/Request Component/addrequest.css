@@ -1,0 +1,15 @@
+.req-form{
+    position: absolute;
+    left:40%;
+    top:20%;
+    border:2px solid black ;
+    border-radius: 3%;
+    position: absolute;
+padding: 20px;
+
+
+   
+}
+.req-form lable{
+    display: flex;
+}
